@@ -1,0 +1,91 @@
+html{
+    font-family: Helvetica;
+    background-color: #ddd;
+}
+
+.container{
+    background-color: #fff;
+    max-width: 1100px;
+    padding: 20px 50px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.header{
+    text-align: center;
+}
+
+.main-title{
+    font-size: 40px;
+}
+
+.main-paragraph{
+    font-style: italic;
+}
+
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+.biography-container{
+    /* background-color: aqua; */
+    padding: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    
+}
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+    margin-top: 30px;
+}
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+.quotes-container p{
+    font-style: italic;
+}
+
+.curiosities-container{
+
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li{
+    height: 30px;
+}
+
+.img-bold{
+    font-weight: bold;
+    text-align: center;
+}
+/* finalizado */
+
+.moreinfo-container {
+    background-color: #f9f9f9; /* Fundo levemente cinza para destaque */
+    padding: 20px; /* Preenchimento interno */
+    margin: 25px 0; /* Margens superior e inferior */
+    border: 1px solid #ccc; /* Borda sutil para definição */
+    border-radius: 8px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+
+.moreinfo-container a {
+    color: #007bff; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Destaca o link */
+}
+
+.moreinfo-container a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+    color: #0056b3; /* Cor do link ao passar o mouse */
+}
